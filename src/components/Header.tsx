@@ -40,7 +40,7 @@ const Header = () => {
         <div className="max-x-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-3 md:gap-6">
             <div className="flex justify-between items-center w-full md:w-auto">
-              <a href="/" className="text-2xl font-bold text-pink-600">
+              <a href="/" className="text-2xl font-bold text-red-600">
                 ShopHere
               </a>
               <button
@@ -56,10 +56,10 @@ const Header = () => {
                 <input
                   type="text"
                   placeholder="Search..."
-                  className="w-full px-3 py-2 text-xs border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="w-full px-3 py-2 text-xs border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-950"
                 />
                 <button
-                  className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 hover:text-indigo-600"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 hover:text-red-600"
                   aria-label="Search Button"
                 >
                   <FiSearch size={16} />
@@ -68,25 +68,25 @@ const Header = () => {
             </div>
             <div className="flex-items-center justify-end space-x-4 w-full md:w-auto">
               <button
-                className="relative p-2 text-gray-700 hover:text-pink-600"
+                className="relative p-2 text-gray-700 hover:text-red-600"
                 aria-label="Wishlist"
               >
                 <FiHeart size={20} />
-                <span className="absolute -top-1 -right-1 bg-pink-500 text-white text-xs *:rounded-full h-5 w-5 flex items-center justify-center">
+                <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs *:rounded-full h-5 w-5 flex items-center justify-center">
                   3
                 </span>
               </button>
               <button
-                className="relative p-2 text-gray-700 hover:text-pink-600"
+                className="relative p-2 text-gray-700 hover:text-red-600"
                 aria-label="Wishlist"
               >
                 <FiShoppingCart size={20} />
-                <span className="absolute -top-1 -right-1 bg-pink-500 text-white text-xs *:rounded-full h-5 w-5 flex items-center justify-center">
+                <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs *:rounded-full h-5 w-5 flex items-center justify-center">
                   5
                 </span>
               </button>
               <button
-                className="p-2 text-gray-700 hover:text-pink-600"
+                className="p-2 text-gray-700 hover:text-red-600"
                 aria-label="User"
               >
                 <FiUser size={20} />
@@ -96,7 +96,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="bg-pink-950">
+      <div className="bg-red-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="hidden md:flex justify-center py-3">
             <ul className="flex flex-wrap gap-x-6 text-sm font-medium text-white">
@@ -104,7 +104,7 @@ const Header = () => {
                 <li key={item.id}>
                   <a
                     href={item.link}
-                    className="hover:text-pink-300 transition-colors"
+                    className="hover:text-red-300 transition-colors"
                   >
                     {item.name}
                   </a>
