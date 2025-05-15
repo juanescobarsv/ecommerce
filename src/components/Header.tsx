@@ -72,7 +72,7 @@ const Header = () => {
                 aria-label="Wishlist"
               >
                 <FiHeart size={20} />
-                <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs *:rounded-full h-5 w-5 flex items-center justify-center">
+                <span className="opacity-85 absolute -top-1 -right-1 bg-red-500 text-white text-xs *:rounded-full h-5 w-5 flex items-center justify-center">
                   3
                 </span>
               </button>
@@ -81,7 +81,7 @@ const Header = () => {
                 aria-label="Wishlist"
               >
                 <FiShoppingCart size={20} />
-                <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs *:rounded-full h-5 w-5 flex items-center justify-center">
+                <span className="opacity-85 absolute -top-1 -right-1 bg-red-500 text-white text-xs *:rounded-full h-5 w-5 flex items-center justify-center">
                   5
                 </span>
               </button>
